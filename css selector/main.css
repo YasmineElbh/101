@@ -1,0 +1,16 @@
+ul , li{
+    color: red;
+}
+ul li{
+    color: red;
+}  
+ol > li{
+    color: red;
+}
+li  + li{
+    color: blueviolet;
+}
+[class = "sub"]
+{
+    color: brown;
+}
