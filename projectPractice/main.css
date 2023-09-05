@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+section a
+{
+    color: black;
+}
+#navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to left , #6ba0d1, #47a9c7, #46aeb1, #63b096, #87ae7e, #9ab076, #aeb16f, #c4b16c, #d1b869, #debe66, #ecc562, #fbcb5f);
+    padding: 0 !important;
+}
+section  .navbar-brand
+{
+    font-style: unset;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    padding-left: 20px;
+}
+.navbar-nav
+{
+    padding: 0 10 px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff !important;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/* banner section */
+#banner
+{
+    background-image: linear-gradient(to left , #6ba0d1, #47a9c7, #46aeb1, #63b096, #87ae7e, #9ab076, #aeb16f, #c4b16c, #d1b869, #debe66, #ecc562, #fbcb5f);
+    color: #fff;
+    padding-top: 5%;
+    
+}
+#container
+{
+    margin-right: 40%;
+}
+.tittle
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+.sous-tittle
+{
+
+    margin-left: 15%;
+    text-align: center;
+    
+}
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15%;
+}
+.undraw-img
+{
+    margin-left: 880px;
+    width: 110%;
+}
