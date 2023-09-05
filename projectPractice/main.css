@@ -89,6 +89,10 @@ section  .navbar-brand
 }
 .undraw-img
 {
-    margin-left: 880px;
+    margin-left: 700px;
     width: 110%;
+}
+.bottom-img
+{
+    width: 100%;
 }
