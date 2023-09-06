@@ -56,7 +56,6 @@ section  .navbar-brand
     background-image: linear-gradient(to left , #6ba0d1, #47a9c7, #46aeb1, #63b096, #87ae7e, #9ab076, #aeb16f, #c4b16c, #d1b869, #debe66, #ecc562, #fbcb5f);
     color: #fff;
     padding-top: 5%;
-    
 }
 #container
 {
@@ -129,7 +128,7 @@ section  .navbar-brand
     display: block;
     transform: translateY(63px);
 }
-.title::after
+/* .title::after
 {
     content: '';
     background: #9ab076;
@@ -140,7 +139,7 @@ section  .navbar-brand
     margin-bottom: 40px;
     display: block;
     transform: translateY(8px);
-}
+} */
 #services .btn-primary
 {
     box-shadow: none;
@@ -148,4 +147,48 @@ section  .navbar-brand
     border: none;
     border-radius: 20px;
     background-image: linear-gradient(to right, #46aeb1, #63b096, #63b096, #87ae7e, #9ab076, #aeb16f, #c4b16c, #d1b869, #debe66, #ecc562, #fbcb5f);
+}
+/**About us**/
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+#about-us ul li
+{
+    margin: 10px 0;    
+    
+}
+#about-us ul 
+{
+    
+    margin-left: 20px;
+}
+#img-connected
+{
+    width: 5px;
+}
+#clients
+{
+    margin: 100px 0;
+}
+.clients
+{
+    border-left: 4px solid #9ab076;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.clients img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.userr
+{
+    display: inline-block;
+    font-size: 12px;
 }
