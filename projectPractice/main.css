@@ -96,3 +96,23 @@ section  .navbar-brand
 {
     width: 100%;
 }
+
+/*services*/
+#services
+{
+    padding: 80px 0;
+}
+.services-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.sevices
+{
+    padding: 20px;
+    margin-top: 25px;
+}
+.title
+{
+    
+}
