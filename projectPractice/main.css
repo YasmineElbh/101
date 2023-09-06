@@ -105,14 +105,47 @@ section  .navbar-brand
 .services-img
 {
     width: 100px;
-    margin-top: 20px;
+    margin-top: 90px;
 }
 .sevices
 {
     padding: 20px;
     margin-top: 25px;
 }
-.title
+/* .services h4
 {
-    
+    padding: 15px;
+    margin-top: 44px;
+    text-transform: uppercase;
+} */
+.title::before
+{
+    content: '';
+    background: #9ab076;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #9ab076;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #46aeb1, #63b096, #63b096, #87ae7e, #9ab076, #aeb16f, #c4b16c, #d1b869, #debe66, #ecc562, #fbcb5f);
 }
