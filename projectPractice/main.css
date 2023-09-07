@@ -154,7 +154,6 @@ section  .navbar-brand
     background: #f8f9fa;
     padding-bottom: 50px;
     padding-top: 50px;
-     
 }
 #about-us ul li
 {
@@ -168,7 +167,7 @@ section  .navbar-brand
 }
 #img-connected
 {
-    width: 5px;
+    
 }
 #clients
 {
@@ -192,7 +191,26 @@ section  .navbar-brand
     display: inline-block;
     font-size: 12px;
 }
-#users
+#footer
 {
-    margin-left: 200px;
+    background-image: linear-gradient(to left , #6ba0d1, #47a9c7, #46aeb1, #63b096, #87ae7e, #9ab076, #aeb16f, #c4b16c, #d1b869, #debe66, #ecc562, #fbcb5f);
+    color: #fff;
 }
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box a
+{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 40px;
+    /* float: right;
+    text-align: left; */
+
+}
+
